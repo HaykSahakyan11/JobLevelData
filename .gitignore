@@ -1,0 +1,37 @@
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore virtual environment
+venv/
+.env
+
+# Ignore dataset files
+data/*.csv
+data/*.xlsx
+
+# Ignore model weights and checkpoints
+*.pth
+*.ckpt
+checkpoints/
+
+# Ignore logs and temporary files
+logs/
+*.log
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore configuration files that store secrets
+config.yaml
+config.json
+
+# Ignore outputs and generated files
+output/
+results/
+*.tmp
+
+# Ignore .idea folder
+.idea/
